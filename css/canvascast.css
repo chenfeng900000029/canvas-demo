@@ -1,0 +1,91 @@
+*{margin: 0;
+	padding: 0;}
+		
+.icon {
+       width: 1em; height: 1em;
+       vertical-align: -0.15em;
+       fill: currentColor;
+       overflow: hidden;
+    }	
+body{overflow: hidden;}  				
+				
+#xxx{ background: bisque;
+	display: block;}	
+.actions{ position: fixed;
+			top:0;
+			left: 0;}
+.actions svg{ height: 30px;
+				width: 30px;
+				padding: 10px 10px;
+				transition:0.3s;
+				fill: #8B4513;
+				}			
+.actions svg.active{
+	fill:coral;
+	transform:scale(1.2);
+}
+.actions> svg#clear:active{ fill: #C1BEBC; }	
+.colors{ background: #FBD8B1;
+			border-radius: 20px;
+		top: 50px;
+		left: 10px;
+		position: fixed;
+		list-style: none;
+		padding:0 4px;
+		}
+.colors >li{ height: 20px;
+			width: 20px;
+			margin: 3px;
+			float: left;
+			border: solid 2px  #FBD8B1;
+			border-radius: 15px;
+			line-height: 25px;}
+.colors> li.red{ background:#F83508 ;}	
+.colors> li.green{background:#26E8C6 ;}	
+.colors> li.blue{ background:#1FCAFE;}	
+					
+.colors> li.active{ 
+			border: solid 2px #fff;}	
+		
+.lines{ position: fixed;
+		top: 10px;
+		right: 10px;
+		padding: 0 10px;
+		background: #FFF;
+		border: solid 1px #C1BEBC;
+		border-radius: 18px;
+		box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.1);
+		border: 1px solid #C1BEBC;
+		cursor: pointer;
+		}
+.lines > .lines-title{
+	display:inline-block;
+	top: 0px;
+	right: 0px;
+	line-height: 30px;
+	border-right:1px solid #C1BEBC ;
+	border-left: 1px solid #C1BEBC;
+	padding: 0 4px 0 4px;
+	color: #C1BEBC;
+	
+}			
+.lines > .thin{
+	display:inline-block;
+	top: 0px;
+	right: 0px;
+	color: #494D72;
+	line-height: 5px;
+	border-bottom: 4px solid #F83508;
+}	
+.lines > .thick{
+	display:inline-block;
+	top: 0px;
+	color: #494D72;
+	font-family: "agency fb";
+	right: 0px;
+	line-height: 5px;
+	border-bottom: 6px solid #F83508;
+}								
+
+	
+
